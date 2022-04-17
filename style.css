@@ -15,11 +15,14 @@
 
 body {
     color: gold;
-    background-color: purple;
+    background-image: linear-gradient(to right, rgb(140, 8, 107) , rgb(205, 99, 13));
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+#grad {
+    background-image: linear-gradient(to right, red , yellow);
+  }
 img {
     max-width: 50%;
     max-height: 100%;
@@ -40,6 +43,7 @@ img {
     width: 200px;
     height: 30px;
     box-shadow: 0px 0px 2px 2px goldenrod;
+    font-size: 13px;
 }
 
 .button:hover {

@@ -1,14 +1,23 @@
 
 .head {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Tahoma, sans-serif;
     color: antiquewhite;
     text-align: center;
+}
+
+.neonText {
+    color: bisque;
+    text-shadow: 
+    0 0 7px #ffd700,
+    0 0 10px #ffd720,
+    0 0 15px #ffd820;
 }
 
 body {
     color: gold;
     background-color: purple;
     text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 img {
@@ -18,7 +27,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 20px;
     
 }
 
@@ -34,13 +43,26 @@ img {
 }
 
 .button:hover {
-    background-color: goldenrod;
-    color: purple;
     transition: 0.3s;
+    color: bisque;
+    text-shadow: 
+    0 0 7px #ffd700,
+    0 0 10px #ffd720,
+    0 0 15px #ffd820,
+    0 0 25px #ffd890,
+    0 0 30px #ffd970;
 }
 
 .button:focus {
     outline-color: transparent;
     outline-style:solid;
     box-shadow: 0 0 0 4px gold;
+    
+}
+
+img
+{
+-moz-box-shadow: 0 0 7px #ffd700;
+-webkit-box-shadow: 0 0 10px #ffd720;
+box-shadow: 0 0 40px #ffd890;
 }

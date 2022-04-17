@@ -69,3 +69,17 @@ img {
     -webkit-box-shadow: 0 0 10px #ffd720;
     box-shadow: 0 0 40px #ffd890;
 }
+
+ul {
+    padding: 0;
+    color: bisque;
+}
+
+h3 {
+    color: gold;
+}
+
+ol {
+    padding: 200;
+    color: bisque;
+}
